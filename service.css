@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 10px;
+    background-color:green;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    border-radius: 50px;
+}
+   
+.header img {
+   height: 60px;
+    width: 90px;
+
+  
+}
+
+
+
+ul li a {
+    text-decoration: none; 
+    font-size: 25px;
+     color: white;
+     padding: 10px;
+}
+ul li {
+    display: inline-flex;
+   
+
+
+}
+
+.nav ul li:hover  .dropdown{
+ display: block;
+ background-color: #FEB139;
+ position: absolute;
+ /* margin-top: 30px; */
+ text-align: center;
+} 
+.dropdown ul  li {
+    display: block;
+    padding: 10px;
+
+} 
+ul li :hover{
+    color: grey;
+}
+
+
+.dropdown{
+    display: none;
+    margin-top: 35px;
+   
+}
+
+.but button { 
+     /* padding-bottom: 25px;
+    margin-top: 10px; */
+    margin-right: 35px; 
+    background-color: #FEB139;
+    /* background-color:rgba(135, 186, 135, 0.811); */
+    width: 100px;
+    color:white;
+    border-radius: 16px;
+    border: none;
+    height: 40px;
+
+}
+.but button:hover{
+    background-color:grey;
+    
+}
+.price1 h3{
+font-size: 30px;
+}
+.item-2 h3{
+font-size: 30px;
+}
+
+
+.food {
+font-size:25px;
+color:yellow;
+padding-top: 5px;
+}
+
+
+.box {
+    /* background-color: rgb(121, 115, 115);
+    background-blend-mode: multiply; */
+    background-size: cover;
+    background-image: url(./img/juu6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: slider 9s infinite linear;
+ width: 100%;
+ height: 150vh;
+    
+  
+}
+
+.box p{
+    font-size: 52px;
+  padding-top: 280px;
+    text-shadow: 2px 4px  8px  rgb(0, 0, 0);
+   text-align: center;
+}
+h1{
+    background-color:#FFEBAD;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 22px;
+    padding-bottom: 50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 44px;
+    /* margin-top: 42px; */
+     justify-content: center; 
+    padding: 12px;
+    background-color: #FFEBAD;
+    
+}
+.main p{
+    font-size: 22px;
+    padding-top: 8px;
+}
+
+/* .main h2{
+
+} */
+.main1 img{
+    width: 230px;
+    height: 200px;
+    border-radius: 22px;
+    box-shadow: 3px 2px 4px 5px;
+}
+.main img:hover{
+    width: 230px;
+    height: 200px;
+    background-color: darkolivegreen;
+}
+
+
+.main3 img{ 
+    width: 230px;
+    height: 200px;
+    border-radius: 22px;
+    box-shadow: 3px 2px 4px 5px;
+    
+}
+.main2 img{
+    width: 230px;
+    height: 200px;
+    border-radius: 22px;
+    box-shadow: 3px 2px 4px 5px;
+
+}
+button{
+    width: 90px;
+    background-color: coral; 
+}
+ button:hover{
+    background-color:green;
+}
+.text{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 44px;
+    justify-content: center;
+    margin-top: 42px;
+}
+.tex1 h3{
+    font-size: 22px;
+}
+.waqti img{
+    width: 80px;
+    height: 90px;
+    border-radius: 20px;
+    padding-top: 8px;
+    margin-left: 22px;
+
+
+}
+.waqti img{
+    transition-property:width height red;
+    transition-delay:0.2s ;
+    transition-duration: 0.5s;
+}
+.waqti img:hover{
+    width: 60px;
+    height: 100px;
+    color: aqua;
+
+    transform: scale(2);
+    /* transition-duration: 0.2s;
+    color: brown;
+     */
+}
+.icon h6{
+    transition-property: font-size color;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+    
+    
+
+}
+.icon h6:hover{
+     transform: scale(2); 
+
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: brown;
+}
+h2{
+    text-align: center;
+    margin-top: 22px;
+
+}
+ 
+ 
+    
+ 
+    
+.waqti{
+    display: flex;
+}
+.waqti h6{
+    text-align: center;
+    margin-top: 22px;
+}
+ .barwaqo{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 44px;
+    justify-content: center;
+    margin-top: 42px;
+}   
+
+
+
+.hano p{
+    margin-left: 12px;
+} 
+ .hano{
+    background-color: rgb(214, 214, 193);
+    
+    border-radius: 22px;
+    box-shadow: 2px 3px 4px 5px;
+}  
+/* qeybta Contact */
+.ribash img{
+    border-radius: 24px;
+    width: 600px;
+    height: 600px;
+    padding-left: 64px;
+}
+.contact h2 {
+    padding-top:25px ;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgb(112, 126, 208);
+text-align: center;
+font-size: 35px;
+padding-bottom: 65px;
+
+
+}
+.ribash{
+    
+    display: grid;
+    grid-template-columns: 800px 800px;
+    gap: 14px;
+    /* justify-content: center; */
+   
+}
+
+.form-1 form{
+    margin-top: 6px;
+    width: 500px;
+    height: 500px;
+    background-color:white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 12px;
+    padding-left: 50px;
+    padding: 30px;
+
+}
+
+
+.form-1 input{
+    width: 370px;
+    height: 50px;
+}
+.contact{
+    margin-top: 42px;
+    background-color: #FFEBAD;
+    padding-top:30px ;
+    width: 100%;
+    height: 800px;
+}
+
+label{
+    color: black;
+    font-size: 20px;
+}
+textarea{
+    padding-top: 22px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #FEB139;
+  
+}
+button:hover{
+    background-color: grey;
+}
+
+
+.city{
+    background-color: rgb(214, 214, 193);
+    
+    width: 350px;
+    
+   
+}
+
+.dunush button{
+    width: 290px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-evenly;
+    background-color: green;
+    width: 100%;
+    margin-top: 44px;
+}
+.footer ol li{
+    list-style: none;
+    margin-left: 22px;
+}
+h3{
+    font-size: 22px;
+}
+.footer p{
+    margin-top: 12px;
+}
+
+
+.footer h3{
+    /* text-align: center; */
+    font-size: 30px;
+    padding-bottom: 30px;
+  color: white;
+   
+}
+.footer p{
+    font-size: 25px;
+    padding: 8px;
+    color: white;
+    
+}
+.world{
+   margin-bottom: 15px;
+  font-size: 40px;
+   
+}
+.fol{
+    padding-top:  20px;
+}
+.footer-title h3:hover {
+    color:green;
+ }
+  .gift h3:hover{
+    color:green;
+}
+   .colums h3:hover{
+    color:green;
+
+}
+   .world h3:hover{
+    color:green;
+
+}
+   .world h4:hover{
+    color:green;
+
+}
+ .gift p:hover{
+    color:green;
+
+}
+.footer-title p:hover{
+    color:green;
+
+}
+  .colums p:hover{
+    color:green;
+
+}
+ .world p:hover{
+    color:green;
+
+}
+ .fol:hover{
+    color:green;
+}
+@media screen and (max-width:600px){
+    .logo{
+        display: flex;
+        height: 100px;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 400px;
+        text-align: center;
+    }
+    .text{
+        display: grid;
+        grid-template-columns: 400px;
+        text-align: center;
+    }
+    .barwaqo{
+        display: grid;
+        grid-template-columns: 400px;
+        text-align: center;
+    
+        
+    }
+    .Contact{
+        display: grid;
+        grid-template-columns: 400px;
+        
+        text-align: center;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 400px;
+        text-align: center;
+    }
+    
+}
